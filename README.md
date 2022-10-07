@@ -1,2 +1,3 @@
-# cu-bioinformatics-seminar
-Website of the bioinformatics seminar at the Charles University
+# Website of the bioinformatics seminar at the Charles University
+
+[https://bioinformatics.cuni.cz/seminar](https://bioinformatics.cuni.cz/seminar)
