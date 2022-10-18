@@ -64,6 +64,10 @@ th, td
 	/* border-bottom: 1px solid #ddd; */
 }
 
+th.date, td.date {
+	width: 6em;
+}
+
 a:link { color: #d9534f; }
 a:visited { color: #d9534f; }
 a:focus { color: #d9534f; }
