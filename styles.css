@@ -260,6 +260,41 @@ Single styles
 	padding-left: 5px;
 }
 
+#phd-funding img {
+    width: 30%;
+
+}
+
+#phd-funding .logos {
+    padding-top: 20px;
+}
+
+.phd-topic {
+	padding-top: 20px;
+}
+
+.phd-topic-name {
+	font-weight: bold;
+}
+
+.phd-topic .name {
+	padding-bottom: 5px;	
+}
+
+.phd-topic .description .label {
+}
+
+.phd-topic .description .desc-content {
+	font-style: italic;
+}
+
+
+.phd-topic-resources {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+
 /* -----------------------
 Wide styles
 ------------------------*/

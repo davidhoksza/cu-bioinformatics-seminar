@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Doctoral binformatics seminar</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+      <!-- icons -->
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="icon" href="favicon.ico">
+
+      <!-- Override CSS file - add your own CSS rules -->
+      <link rel="stylesheet" href="styles.css">
+
+      <script src="js/phd-resources.js"></script>
+
+    </head>
+    <body>
+    <div class="content">
+      <div class="container">
+        <div class="main">
+          <p><img class="img-responsive" src="michelangelo-grey.jpg" alt=""></p>
+
+
+          <h1>Doctoral bioinformatics seminar</h1>
+          <hr>
+          
+          <h3><b>About</b></h3>
+          <div class="block">  
+            Given the vast diversity within the realm of computational biology, the primary aim of this seminar is to foster interaction among students in the PhD program of Bioinformatics and Computational Biology. The overarching objective is to facilitate a dynamic exchange of knowledge and practices that may be commonplace in one subfield but remain unexplored in another. We strongly believe that by embracing and sharing best practices and experiences across these disciplines, the PhD students can not only excel within their chosen areas of specialization but also transcend the boundaries that separate these fields.
+          </div>
+          <div class="block">
+            Furthermore, through this collaborative environment, students will gain a unique perspective on the interdisciplinary nature of computational biology. This holistic approach will empower them to not only address the specific challenges within their domain but also find innovative solutions that lie at the intersection of these fields. Ultimately, we envision that this share of ideas and expertise will produce experts capable of pushing the boundaries of knowledge within specific subfields in the landscape of computational biology.
+          </div>
+          <div class="block">
+            To facilitate the initial exposure to different subfields we have cureated a list of recommended resources (see bellow) that encompass the subjects included in our doctoral study program.
+          </div>
+          <div class="block">
+            The seminar will be held partially together with the <a href="index.html">bioinformatics seminar</a> for the master students (at least when there are invited lectures.)
+          </div>
+
+          <div class="block">  
+            <div>SIS code: <a href="https://is.cuni.cz/studium/eng/predmety/index.php?do=predmet&kod=NSWI201">NSWI201</a></div>
+            <div>Semester: both</div>
+            <div>E-credits: 2</div>
+            <div>Course completion requirements: Active participation</div>
+          </div>
+
+          <hr>
+          
+          <h3><b>Resources</b></h3>
+
+          <div id="resources">
+
+            <div>
+              Follows a list of resources which might be usefull as an overview for students...
+
+              However, we would also like to point students to more general resources with training materials covering various doimains of Bioinformatics and computational biology:
+              
+              <ul>
+                <li><a href="https://www.ebi.ac.uk/training/">EMBL-EBI training</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          
+          <hr>
+          <h3><b>Contact</b></h3>
+          <div class="block">
+            Managed by departments of
+            <ul>
+              <li><a href="https://www.ksi.mff.cuni.cz/">Software Engineering</a>, Faculty of Mathematics and Physics, Charles University (Malostranské nám. 25, 118 00 Praha 1 - Malá Strana)</li>
+              <li><a href="https://www.natur.cuni.cz/biologie/bunecna-biologie">Cell Biology</a>, Faculty of Science, Charles University (Viničná 7, 128 00 Praha 2)</li>
+            </ul>
+            Course code: MB151S01
+
+            <br>
+            <p>
+              <br> <a href="https://www.sanger.ac.uk/person/danecek-petr/">Petr Daněček</a>
+              <br> <a href="https://bioinformatics.cuni.cz/hoksza">David Hoksza</a>
+              <br> <a href="https://www.natur.cuni.cz/biologie/bunecna-biologie/osobni-stranky/marian-novotny">Marian Novotný</a>
+            </p>
+          </div>
+
+          <hr>          
+          <div id="phd-funding" class="block">            
+              The seminar and the study programme was established with the support of the Czech Recovery Plan, project NPO_UK_MSMT-16602/2022.            
+            <div class="logos">
+                <img src="img/phd/eu-funded.webp">
+                <img src="img/phd/npo-en.webp">
+                <img src="img/phd/msmt-en.webp">
+            </div>            
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <script>
+      const divResources = document.querySelector("#resources");
+
+      resources.forEach(topic => {
+        const divTopic = document.createElement('div');
+        divTopic.className = "phd-topic";
+
+        const divTopicName = document.createElement('div');
+        divTopicName.className = "phd-topic-name";
+        divTopicName.innerText = topic.field;
+
+        const divTopicResources = document.createElement('div');
+        divTopicResources.className = "phd-topic-resources";
+        topic.sources.forEach(r => {
+          const divTopicResource = document.createElement('ul');
+          divTopicResource.className = "phd-topic-resource";
+
+          divTopicResource.innerHTML = `
+          <li>
+            <div class="name"><a href="${r.link}">${r.name}</a> (${r.type})</div>            
+            <div class="description"><span class="label">Description:</span><span class="desc-content"> ${r.description}</span></div>
+          </li>
+            
+            `;
+
+          divTopicResources.append(divTopicResource);
+        }) 
+
+        divTopic.append(divTopicName, divTopicResources);
+        divResources.append(divTopic);
+      });
+    </script>
+    </body>
+    </html>
+
