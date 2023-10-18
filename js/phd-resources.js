@@ -29,12 +29,24 @@
                 type: 'journal article',
                 description: 'An easy-to-read high-level view of how (variation in) sequencing data can be linked to (changes in) phenotype. In this sense the article links genomics to systems biology (later parts of the paper). Specifically, it lists key challenges and opportunities in identifying specific disease-causing genetic variants and linking them to molecular pathways and, ultimately, to disease phenotypes',
             }, 
+            {
+                name: 'Escobar-Zepeda, Alejandra, Arturo Vera-Ponce de León, and Alejandro Sanchez-Flores. "The road to metagenomics: from microbiology to DNA sequencing technologies and bioinformatics." Frontiers in genetics 6 (2015): 348.',
+                link: 'https://www.frontiersin.org/articles/10.3389/fgene.2015.00348/full',
+                type: 'journal article',
+                description: "Metagenomics is the study of genetic material collected from environmental or biological samples, enabling the analysis of entire microbial communities' genetic diversity and functional potential without the need for individual organism cultivation. This review highlights major milestones that led to modern metagenomics",
+            },
+            {
+                name: 'Meyer, Fernando, et al. "Critical assessment of metagenome interpretation: the second round of challenges." Nature methods 19.4 (2022): 429-440.',
+                link: 'https://www.nature.com/articles/s41592-022-01431-4',
+                type: 'journal article',
+                description: 'An article evaluating different metagenomic approaches within the Critical Assessment of Metagenome Interpretation (CAMI) challange, giving the overview of the state-of-the-art in the field.',
+            },
             // {
             //     name: '',
             //     link: '',
             //     type: '',
             //     description: '',
-            // },
+            // },            
 
         ]
     }, {
@@ -182,8 +194,13 @@
                 link: 'https://www.mdpi.com/1424-8247/14/10/1062',
                 type: 'journal article',
                 description: 'Second part of the review covering concepts such as metadynamics or umbrella sampling.'
+            },
+            {
+                name: 'Kmiecik, Sebastian, et al. "Coarse-grained protein models and their applications." Chemical reviews 116.14 (2016): 7898-7936.',
+                link: 'https://pubs.acs.org/doi/full/10.1021/acs.chemrev.6b00163',
+                type: 'journal article',
+                description: 'Many protein systems are too large to be studied in atomistic detail. This review provides an overview of coarse-grained models focusing on their design, including choices of representation, models of energy functions, sampling of conformational space, and applications in the modeling of protein structure, dynamics, and interactions.'
             }
-
             
 
         ]
