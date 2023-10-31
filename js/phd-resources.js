@@ -63,6 +63,12 @@
                 linka: 'https://www.sciencedirect.com/science/article/pii/S2001037022005967',
                 type: 'journal article',
                 description: "An overview of problems solved by machine learning appraoches in structural bioinformatics."
+            },
+            {
+                name: 'Sali, Andrej. "From integrative structural biology to cell biology." Journal of Biological Chemistry 296 (2021).',
+                linka: 'https://www.jbc.org/article/S0021-9258(21)00533-0/',
+                type: 'journal article',
+                description: "A review of integrative modeling approach to structural biology. It describes the goals, workflow, and challenges of integrative modeling."
             }
 
         ]
