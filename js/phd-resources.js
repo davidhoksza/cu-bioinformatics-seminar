@@ -127,6 +127,12 @@
         field: 'Population genetics',
         sources: [
             {
+                name: 'Klein, Richard G. "Profile of Svante Pääbo: 2022 Nobel laureate in physiology or medicine." Proceedings of the National Academy of Sciences 120.1 (2023): e2217025119.',
+                description: "The article delves into the reasons behind Svante Pääbo's Nobel Prize win in 2022. Svante Pääbo's work in human and Neanderthal population and evolutionary genetics offers an insight into the ongoing relevance and promising prospects of this field.",
+                type: "journal article",
+                link: "https://www.pnas.org/doi/10.1073/pnas.2217025119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"
+            },
+            {
                 name: 'Casillas, Sònia, and Antonio Barbadilla. "Molecular population genetics." Genetics 205.3 (2017): 1003-1035.',
                 description: 'This review describes the main concepts, methods, and landmarks of molecular population genetics, using the Drosophila model as a reference. It includes the description of the different genetic data sets made available by advances in molecular technologies, and the theoretical developments fostered by these data.',
                 type: "journal article",
